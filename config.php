@@ -5,7 +5,7 @@ $db_user = "root";
 $db_pass = "";
 $db_name = "absensi";
 
-$connection = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+$connection = mysqli_connect("bnocn1lwwt8py8mfppa5-mysql.services.clever-cloud.com","ub06khnwdvfq3epj","THxMIhqsFI058glOd2Uf","bnocn1lwwt8py8mfppa5");
 
 if(!$connection) {
     echo "Koneksi ke database gagal" . mysqli_connect_error();
